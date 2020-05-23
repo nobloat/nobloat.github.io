@@ -1,13 +1,74 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset=utf-8>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>nobloat.org</title>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="#" /> <!--Suppress favicon-->
+    <title>][ nobloat.org</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 1.2rem;
+            background-color: #f7f8f9;
+            margin: 1.2rem;
+        }
+
+        a, a:hover, a:visited {
+            color: #222;
+        }
+
+        ul {
+            list-style-type: '-';
+        }
+
+        li {
+            padding-left: 1rem;
+        }
+
+        div {
+            position: relative;
+            float: right;
+        }
+    </style>
 </head>
-<main>
-    <h1>nobloat.org</h1>
-    <ul>
-        <li><a href="/css">nobloat.org/css</a></li>
-    </ul>
-</main>
+
+<body>
+    <main>
+        <div><a href="https://github.com/nobloat/">github.com/nobloat</a></div>
+        <h1>][ nobloat.org</h1>
+        <hr>
+        <h2>Goals</h2>
+        <ul>
+            <li>Write, read, promote and fix software to contain less
+                <a href="https://en.wikipedia.org/wiki/Software_bloat">bloat</a></li>
+            <li>Visualize and track software bloat</li>
+        </ul>
+
+        <h2>Metrics</h2>
+        <ul>
+            <li>Install size and <a href="https://en.wikipedia.org/wiki/Source_lines_of_code">SLOC</a> of</li>
+            <ul>
+                <li>dev-dependencies (compiler, libs, build-system)</li>
+                <li>runtime-dependencies (compiler, libs, build-system)</li>
+                <li>external-dependencies (components that do not reside in the same process / address-space)</li>
+            </ul>
+        </ul>
+
+        <h2>Projects</h2>
+        <ul>
+            <li> <a href="/css">/css</a></li>
+        </ul>
+
+        <hr>
+        <h2>See also</h2>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Minimalism_(computing)">Minimalism (computing)</a></li>
+            <li><a href="https://joearms.github.io/published/2014-06-25-minimal-viable-program.html">Minimal viable Programs</a></li>
+            <li><a href="http://suckless.org/philosophy/">Suckless philosophy</a></li>
+            <li><a href="http://harmful.cat-v.org/">cat -v harmful stuff</a></li>
+            <li><a href="https://bundlephobia.com/">Bundlephobia</a></li>
+        </ul>
+
+    </main>
+</body>
